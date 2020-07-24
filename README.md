@@ -19,4 +19,5 @@ $ cat CPPLINT.cfg
 filter=-legal/copyright,-build/namespaces
 
 (4) To lint a folder and exlude some paths , you can use
+
 $ cpplint --exclude build --exclude test-utils/ --recursive .
